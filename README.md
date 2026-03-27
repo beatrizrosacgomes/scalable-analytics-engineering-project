@@ -42,6 +42,8 @@ The project follows a layered architecture pattern:
 
 ### 📐 Dimensional Model
 
+<img width="963" height="476" alt="image" src="https://github.com/user-attachments/assets/2a2760d4-a14d-4558-88b3-42d33f87d44e" />
+
 The Star Schema was selected considering:
 
 - Simplicity for analytical consumption  
@@ -84,8 +86,15 @@ The model supports key business analyses:
 
 ### Example Views
 
-- `vw_monthly_variation` → MoM comparison by category  
-- `vw_top_10_categories` → Ranking based on net revenue  
+- `vw_monthly_variation` → MoM comparison by category
+  
+  <img width="521" height="210" alt="image" src="https://github.com/user-attachments/assets/054a7a6d-4248-463a-b871-86ae900f7ee4" />
+  
+- `vw_top_10_categories` → Ranking based on net revenue
+
+  <img width="189" height="249" alt="image" src="https://github.com/user-attachments/assets/ec771d57-efa4-47bf-8dd2-13675c558e6c" />
+
+  
 
 ---
 
